@@ -44,7 +44,7 @@ const Competances = () => {
 		<motion.div ref={ref} initial={{ y: -50, x: -100 }} animate={animation} className={styles.competance}>
 			<Details />
 			<h2 className={styles.titreComptenceH2}>Niveau de Connaissance</h2>
-			<h3 className={styles.titreComptenceH3}>Logiciels de montage</h3>
+			<h3 className={styles.titreComptenceH3}>Logiciels de montages</h3>
 			<div className={styles.logiciels}>
 				<Image className={styles.logoLogiciel} width={300} height={292} src={logoPhotoshop} alt='logo photoshop'></Image>
 				<div className={styles.niveau}>
